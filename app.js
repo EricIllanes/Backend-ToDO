@@ -36,13 +36,6 @@ const startDB = async () =>{
   });
 }
 
-// const startDB =  () =>{
-//   sequelize.sync({alter:true}).then(()=>{
-//     app.listen(PORT, () => {
-//       console.log(`Server listening on  ${PORT}`);
-//     });
-//   });
-// }
 
 startDB();
 

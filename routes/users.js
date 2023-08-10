@@ -4,7 +4,6 @@ const { Tasks } = require("../models/Tasks.js");
 const bcryptjs = require("bcryptjs");
 const router = Router();
 const jwt = require('jsonwebtoken');
-const e = require("cors");
 const {JWT_SECRET_KEY, JWT_EXPIRATION, JWT_COOKIE_EXPIRES} = process.env
 
 router.get("/user", async (req, res) => {
